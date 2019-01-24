@@ -1,0 +1,17 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background:url('apexbackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:400px;
+    height:40px;
+    background:rgba(0,0,0,.8)
+}
