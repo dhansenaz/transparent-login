@@ -51,10 +51,10 @@ body {
 }
 .box .inputBox input:focus ~ label,
 .box .inputBox input:valid ~ label {
-  top: -18px;
+  top: -20px;
   left: 0;
   color: #8c0a08;
-  font-size: 12px;
+  font-size: 13px;
 }
 .box input[type="Submit"] {
   background: transparent;
