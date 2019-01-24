@@ -1,74 +1,67 @@
 body {
-    margin:0;
-    padding:0;
-    font-family: sans-serif;
-    background:url('apexwhite.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("apexwhite.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .box {
-    position: absolute;
-    top:55%;
-    left:25%;
-    transform: translate(-50%,-50%);
-    width:400px;
-    padding:80px;
-    background:rgba(0,0,0,.8);
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.5);
-    border-radius: 10px;
-
+  position: absolute;
+  top: 55%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 80px;
+  background: rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 .box h2 {
-    margin:0 0 60px;
-    padding:0;
-    color:#fff;
-    text-align: center;
+  margin: 0 0 60px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
 }
 
 .box .inputBox {
-    position: relative;
+  position: relative;
 }
 .box .inputBox input {
-    width:100%;
-    padding:10px 0;
-    font-size: 16px;
-    color:#fff;
-    margin-bottom:30px;
-    border:none;
-    border-bottom:1px solid #fff;
-    outline: none;
-    background:transparent;
-
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
 }
 .box .inputBox label {
-    position: absolute;
-    top:0;
-    left:0;
-    padding:10px 0;
-    font-size: 16px;
-    color:#fff;
-    pointer-events: none;
-    transition: .5s;
-
-
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
 }
 .box .inputBox input:focus ~ label,
-.box .inputBox input:valid ~ label 
-
-{
-    top:-18px;
-    left:0;
-    color:#8C0A08;
-    font-size: 12px;
+.box .inputBox input:valid ~ label {
+  top: -18px;
+  left: 0;
+  color: #8c0a08;
+  font-size: 12px;
 }
-.box input[type='Submit'] {
-    background:transparent;
-    border:none;
-    color:#fff;
-    background:#8C0A08;
-    cursor: pointer;
-    border-radius: 5px;
-    padding:10px 20px;
+.box input[type="Submit"] {
+  background: transparent;
+  border: none;
+  color: #fff;
+  background: #8c0a08;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
 }
