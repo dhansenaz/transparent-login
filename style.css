@@ -2,25 +2,26 @@ body {
     margin:0;
     padding:0;
     font-family: sans-serif;
-    background:url('apexbackground.jpg');
+    background:url('apexwhite.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 .box {
     position: absolute;
-    top:50%;
-    left:50%;
+    top:40%;
+    left:30%;
     transform: translate(-50%,-50%);
     width:400px;
-    padding:40px;
-    background:rgba(0,0,0,.6);
+    padding:80px;
+    background:rgba(0,0,0,.8);
     box-sizing: border-box;
     box-shadow: 0 15px 25px rgba(0,0,0,.5);
     border-radius: 10px;
 
 }
 .box h2 {
-    margin:0 0 30px;
+    margin:0 0 60px;
     padding:0;
     color:#fff;
     text-align: center;
@@ -59,14 +60,14 @@ body {
 {
     top:-18px;
     left:0;
-    color:#EF6315;
+    color:#8C0A08;
     font-size: 12px;
 }
 .box input[type='Submit'] {
     background:transparent;
     border:none;
     color:#fff;
-    background:#EF6315;
+    background:#8C0A08;
     cursor: pointer;
     border-radius: 5px;
     padding:10px 20px;
