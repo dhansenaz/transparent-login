@@ -25,8 +25,11 @@ body {
     color:#fff;
     text-align: center;
 }
-.box .inputBox input {
+
+.box .inputBox {
     position: relative;
+}
+.box .inputBox input {
     width:100%;
     padding:10px 0;
     font-size: 16px;
@@ -56,14 +59,14 @@ body {
 {
     top:-18px;
     left:0;
-    color:#03a9f4;
+    color:#EF6315;
     font-size: 12px;
 }
-.box .input[type='submit'] {
+.box input[type='Submit'] {
     background:transparent;
     border:none;
     color:#fff;
-    background:#03a9f4;
+    background:#EF6315;
     cursor: pointer;
     border-radius: 5px;
     padding:10px 20px;
