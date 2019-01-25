@@ -53,15 +53,26 @@ body {
 .box .inputBox input:valid ~ label {
   top: -20px;
   left: 0;
-  color: #8c0a08;
+  /* color: #8b3e3c; */
+  color: #757575;
+  
   font-size: 13px;
+  letter-spacing: 2px;
 }
 .box input[type="Submit"] {
   background: transparent;
   border: none;
   color: #fff;
-  background: #8c0a08;
+  background: #8b2422;
+  
   cursor: pointer;
   border-radius: 5px;
   padding: 10px 20px;
+  letter-spacing: 2px;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:25px 0;
 }
