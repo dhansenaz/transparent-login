@@ -69,6 +69,12 @@ body {
   border-radius: 5px;
   padding: 10px 20px;
   letter-spacing: 2px;
+  transition: 1s;
+  
+}
+.submit:hover {
+  transform: scale(1.1);
+  
 }
 .button {
   display: flex;
@@ -77,9 +83,20 @@ body {
   margin: 25px 0;
 }
 .newuser {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   transition: 1s;
+  background: transparent;
+  border: 1px solid black;
+  color: #fff;
+  /* background: #8b2422; */
+
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px 20px;
+  letter-spacing: 2px;
 }
 .newuser:hover {
-  opacity: 0.9;
+  transform: scale(1.1);
+  background:black;
+  
 }
