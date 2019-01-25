@@ -55,7 +55,7 @@ body {
   left: 0;
   /* color: #8b3e3c; */
   color: #757575;
-  
+
   font-size: 13px;
   letter-spacing: 2px;
 }
@@ -64,22 +64,22 @@ body {
   border: none;
   color: #fff;
   background: #8b2422;
-  
+
   cursor: pointer;
   border-radius: 5px;
   padding: 10px 20px;
   letter-spacing: 2px;
 }
 .button {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin:25px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 25px 0;
 }
 .newuser {
-  opacity:.5;
-  transition:1s;
+  opacity: 0.5;
+  transition: 1s;
 }
 .newuser:hover {
-  opacity:.9;
+  opacity: 0.9;
 }
