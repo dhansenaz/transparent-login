@@ -11,7 +11,7 @@ a {
 }
 .box {
   position: absolute;
-  top: 55%;
+  top: 50%;
   left: 25%;
   transform: translate(-50%, -50%);
   width: 400px;
@@ -82,7 +82,7 @@ a {
   position: absolute;
   color: #fff;
   margin-top: 10px;
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 2px;
 }
 
@@ -98,7 +98,7 @@ a:hover {
   color:#fff;
   margin-top:-10px;
   font-size: 14px;
-  padding:5px 5px 0 0;
+  padding:8px 8px 0 0;
   transition:1s;
 }
 .forgot:hover  {
